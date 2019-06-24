@@ -1,6 +1,6 @@
 rm -rf ~/miniconda3.sh && \
 rm -rf ~/miniconda3 && \
-proxychains4 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3.sh && \
+proxychains4 wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3.sh && \
 /bin/bash ~/miniconda3.sh -b -p ~/miniconda3 && \
 rm -rf ~/miniconda3.sh && \
 ~/miniconda3/bin/pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
