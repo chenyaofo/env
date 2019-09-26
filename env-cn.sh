@@ -20,7 +20,7 @@ rm -rf ~/miniconda3.sh && \
 # science computation
 ~/miniconda3/bin/conda install -y scipy numpy scikit-learn pandas matplotlib -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main && \
 # torch and torchvision
-~/miniconda3/bin/conda install -y pytorch torchvision cudatoolkit=10.0 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch && \
+~/miniconda3/bin/conda install -y pytorch torchvision cudatoolkit=10.0 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main && \
 # clean the caches
 ~/miniconda3/bin/conda clean -ay && \
 # conda init
