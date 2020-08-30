@@ -15,7 +15,7 @@ rm -rf ~/miniconda3.sh && \
 ~/miniconda3/bin/pip install --no-cache-dir scipy numpy scikit-learn pandas matplotlib && \
 ~/miniconda3/bin/pip install --no-cache-dir torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html && \
 ~/miniconda3/bin/pip install --no-cache-dir pycocotools tb-nightly torchtext && \
-~/miniconda3/bin/pip install --no-cache-dir install --extra-index-url https://developer.download.nvidia.com/compute/redist/ nvidia-dali-cuda100==0.25.0 && \
+~/miniconda3/bin/pip install --no-cache-dir --extra-index-url https://developer.download.nvidia.com/compute/redist/ nvidia-dali-cuda100==0.25.0 && \
 echo '    ______        _                ______          ___                __' && \
 echo '   / ____/___    (_)___  __  __   / ____/___  ____/ (_)___  ____ _   / /' && \
 echo '  / __/ / __ \  / / __ \/ / / /  / /   / __ \/ __  / / __ \/ __ `/  / / ' && \
